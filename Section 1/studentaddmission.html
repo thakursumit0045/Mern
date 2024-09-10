@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Student Admission Form</h2>
+
+    <form>
+
+        <label for="name">Student Name</label>
+        <input id="name" type="text" placeholder="Enter Your name here" required minlength="3">
+
+        <br>
+        <br>
+
+        <label for="email">Student Email</label>
+        <input id="email" type="email" required>
+
+        <br>
+        <br>
+
+        <label for="dob">Date of Birth</label>
+        <input type="date">
+
+        <br><br>
+
+        <label for="Gender"></label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+
+        <br><br>
+
+        <label for="course">Selet Course</label>
+        <select id="Couse">
+            <option>MERN STAG DEVELOPMENT</option>
+            <option>Pythhon Data Science</option>
+            <option>Data Analytics</option>
+            <option>React Native</option>
+        </select>
+
+        <br><br>
+
+        <label>College</label>
+        <input type="text" list="college-option">
+
+        <datalist id="college-option">
+
+            <option>BBDITM</option>
+            <option>LPCPS</option>
+            <option>SRCMS</option>
+            <option>GIMT</option>
+            <option>RCSIC</option>
+            <option>CBSPS</option>
+            <option>LPS</option>
+        </datalist>
+
+        <br><br>
+
+        <label for="">Address</label>
+        <textarea row="4"></textarea>
+
+        <br><br>
+
+        <input type="checkbox">
+        <label for="">Accept Terms And Condistion</label>
+
+
+        <br><br>
+
+        <details>
+            <summary> view Terms And Condition</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea nobis atque<mark>molestiae inventore officiis
+                dolore repellendus </mark>amet facere fugiat. Quas, doloribus sed? Ab quo soluta qui ad nam velit mollitia?</p>
+
+        </details>
+
+
+
+
+
+
+
+
+
+
+        <button>Submit</button>
+
+    </form>
+
+</body>
+
+</html>
